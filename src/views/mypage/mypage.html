@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>먹짱 | 마이페이지</title>
+    <!-- 아이콘 -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/파비콘1.png" />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mypage.css" />
+    <script src="mypage.js" type="module" defer></script>
+    <link rel="stylesheet" href="../header/header.css" />
+    <script src="../header/header.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <section id="headerNav" class="headerNav">
+        <nav role="navigation" aria-label="main navigation" class="navbarBox">
+          <ul id="navbar" class="navbar"></ul>
+        </nav>
+      </section>
+    </header>
+
+    <section class="mypage-container">
+      <div class="mypage-box">
+        <h1 class="mypage">마이페이지</h1>
+        <div class="mypageInfo">
+          <div class="userInfo">
+            <span id="userName"></span>
+            <span id="userEmail"></span>
+            <span id="userAdd"></span>
+            <span id="userPhonenum"></span>
+          </div>
+        </div>
+        <div id="mypageNav" class="mypageNav">
+          <a href="/mypage/security" class="navlink">정보수정</a>
+          <a href="/mypage/signout" class="navlink">계정삭제</a>
+          <a href="/mypage/orderlist" class="navlink">주문조회</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
