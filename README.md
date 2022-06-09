@@ -2,9 +2,11 @@
 2022.05.23~06.03 팀프로젝트
 
 ### 1. 서비스 링크
+---
 http://kdt-sw2-seoul-team04.elicecoding.com/
 
 ### 2. 서비스 소개
+---
 쇼핑몰의 제품등록, 장바구니 추가, 주문하기 등의 서비스 구현
 
 1. 회원가입, 로그인, 회원정보 수정 및 탈퇴 등 사용자 관련 CRUD를 할 수 있습니다.
@@ -13,6 +15,7 @@ http://kdt-sw2-seoul-team04.elicecoding.com/
 4. 관리자 페이지가 있습니다.
 
 ### 2.1 API 문서
+---
 https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 
 ### 2.2 데모 영상
