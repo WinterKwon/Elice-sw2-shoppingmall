@@ -33,9 +33,9 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
   </details>
   
 ### 2.3 페이지별 화면
-
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------|
-| ![image](https://user-images.githubusercontent.com/98244487/172752838-398930da-f50b-49e8-8970-feeee9f81378.png) |![image](https://user-images.githubusercontent.com/98244487/172753232-d772b29d-e40e-4d29-847e-4b9aab29ac4b.png)|
+|  |  |
+| -------------------------------------------------------- | -------------------------------------------------------------------|
+|![image](https://user-images.githubusercontent.com/98244487/172752838-398930da-f50b-49e8-8970-feeee9f81378.png) |![image](https://user-images.githubusercontent.com/98244487/172753232-d772b29d-e40e-4d29-847e-4b9aab29ac4b.png)|
 |    메인 페이지                                |      회원가입 화면                      |
 | ![image](https://user-images.githubusercontent.com/98244487/172753126-0bbb1b20-0e8b-45bd-b1ca-863cbb95c72c.png) | ![image](https://user-images.githubusercontent.com/98244487/172753356-1b9bc2e8-7acc-4f14-9676-ccc29d51b721.png) |
 |    로그인 페이지                              |   전체 상품 페이지                         |
@@ -44,9 +44,12 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 |![image](https://user-images.githubusercontent.com/98244487/172754192-4a9b747d-13fa-4e51-a460-0d0cdc0300f4.png) |![image](https://user-images.githubusercontent.com/98244487/172754349-155e184c-0a9f-406b-9a0a-4d2e1015757c.png)|
 |  주문 페이지                                  |   주문 조회 페이지                      |
 |![image](https://user-images.githubusercontent.com/98244487/172754408-ff66ac19-735c-44ca-89b2-9369e84117bf.png)|![image](https://user-images.githubusercontent.com/98244487/172754633-fac4e3d1-bca2-4d57-8bfe-711ad5f6a037.png) |
-|  사용자 마이페이지                            |    관리자 페이지 (상품등록)              |
-|![image](https://user-images.githubusercontent.com/98244487/172754771-f8c78778-f5b6-4b57-94d8-2edd19a1b6c8.png)| |
-|   관리자 | |
+|  사용자 마이페이지                            |    관리자 상품 등록 페이지           |
+|![image](https://user-images.githubusercontent.com/98244487/172762599-874c9125-db2c-4f6c-b70f-b4a04a86ebfb.png)|![image](https://user-images.githubusercontent.com/98244487/172762462-f76f63b4-37e7-44dc-8981-11879ba7a603.png)|
+|   관리자 상품 수정/삭제 페이지 | 관리자 상품 조회 페이지 |
+|![image](https://user-images.githubusercontent.com/98244487/172762645-9201f80c-3cb7-4838-9e49-b2fc3af320eb.png) | |
+| 관리자 주문 조회/ 취소 페이지 | |
+
 
 
 
@@ -67,10 +70,13 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 
 ## 5. 제작자
 
-| 이름 | 담당 업무 |
-| ------ | ------ |
-| 권필주 | 백엔드 |
-
+| 이름 | 포지션 | 담당업무|
+| ------ | ------ | ------- |
+| Winter Kwon | 백엔드 | 상품CRUD, 스키마, validator, 에러핸들링|
+| Yoon | 백엔드 | 주문CRUD, 스키마, 이미지업로드, 에러 핸들링|
+|Lee | 프론트엔드 | 팀장, 상품, 주문, 관리자  |   
+|Hwang |프론트엔드 | 장바구니, 배너 |
+|Sung | 프론트엔드 | 상품 상세, 마이페이지 |
 
 
 
