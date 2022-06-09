@@ -33,6 +33,8 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
   </details>
   
 ### 2.3 페이지별 화면
+<details><summary>페이지별 화면 상세 이미지</summary>
+ 
 |  |  |
 | -------------------------------------------------------- | -------------------------------------------------------------------|
 |![image](https://user-images.githubusercontent.com/98244487/172752838-398930da-f50b-49e8-8970-feeee9f81378.png) |![image](https://user-images.githubusercontent.com/98244487/172753232-d772b29d-e40e-4d29-847e-4b9aab29ac4b.png)|
@@ -52,6 +54,7 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 
 
 
+  </details>
 
 
 
