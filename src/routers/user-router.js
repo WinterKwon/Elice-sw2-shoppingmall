@@ -50,16 +50,7 @@ userRouter.post(
   '/login',
   validateLogin,
   asyncHandler(async function (req, res, next) {
-    // application/json 설정을 프론트에서 안 하면, body가 비어 있게 됨.
-    // validateSignup으로 req.body가 비어있는 경우 걸러지므로 하기 코드는 불용.
-    // if (is.emptyObject(req.body)) {
-    //   const err = new CustomError(
-    //     400,
-    //     'headers의 Content-Type을 application/json으로 설정해주세요'
-    //   );
 
-    //   throw err;
-    // }
 
     // req (request) 에서 데이터 가져오기
     const email = req.body.email;
