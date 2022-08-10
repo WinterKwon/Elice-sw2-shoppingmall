@@ -16,24 +16,9 @@
 ## 2.1 API 문서
 https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 
-## 2.2 데모 영상
-<details><summary>사용자 회원가입, 로그인</summary>
- ![image]() 
-  </details>
 
-<details><summary>장바구니 기능</summary>
- ![image]() 
-  </details>
   
-<details><summary>주문 기능</summary>
- ![image]() 
-  </details>
-  
-<details><summary>관리자 페이지</summary>
- ![image]() 
-  </details>
-  
-### 2.3 페이지별 화면
+### 2.2 페이지별 화면
 <details><summary>페이지별 화면 상세 이미지</summary>
  
 |  |  |
