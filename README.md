@@ -1,3 +1,23 @@
+### 프로젝트 서비스 내용
+소비자를 도매, 소매로 나눈 식자재 쇼핑몰
+
+### 백엔드 참여 부분
+* 상품 관련 DB 모델링 및 전체 API
+* 커스텀 에러핸들링
+* 커스텀 validator
+
+### 기술스택
+<img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" /> <img alt="express" src="https://img.shields.io/badge/-express-ffffff?style=flat-square&logo=express&logoColor=black" />
+<img alt="mongoDB" src="https://img.shields.io/badge/-mongoDB-019267?style=flat-square&logo=mongodb&logoColor=white" />
+
+### 배운점
+* nodejs+ express 프레임워크로 백엔드 서버 구축
+* DB 모델링 및 API 설계
+* 에러 함수 커스터마이징
+
+<br>
+<br>
+
 # Elice-sw2-shoppingmall
 2022.05.23 ~ 06.03 엘리스 SW2기 1차 팀프로젝트로 진행한 쇼핑몰 사이트입니다.
 
@@ -68,4 +88,4 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 |Sung | 프론트엔드 | 상품 상세, 마이페이지 |
 
 
-
+</details>
