@@ -1,7 +1,8 @@
 body {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
 }
+
 .pageTop {
   height: 100%;
   font-weight: bold;
@@ -27,35 +28,42 @@ header .subTitle {
 }
 
 /* 메인 배너 */
-.slider{
-  width: 1280px;
-  height: 720px;
-  overflow: hidden;
-}
-.slides {
-  position: relative;
+.mainBanner {
   display: flex;
-  width: 2560px;
-  height: 720px;
+  width: 100vw;
+  align-items: stretch;
 }
-.slide{
-  width: 1280px;
-  height: 720px;
+.whole {
+  flex-basis: 50%;
 }
-.imgBtn{
-  width: 30px; 
-  height: 30px;
-  border: none;
-  outline: none;
-  background: transparent;
-  color: #4e944f;
+.retail {
+  flex-basis: 50%;
 }
-.imgBtn:hover{
+.imgContainer {
+  overflow: hidden;
+  position: relative;
+  height: 85vh;
+}
+.img {
+  width: 50vw;
+  height: 100%;
+}
+#wholePeople, 
+#retailPeople {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: all 1s;
+}
+.img:hover {
   cursor: pointer;
 }
-.left{
-  float: left;
+.imgContainer:hover #wholePeople,
+.imgContainer:hover #retailPeople {
+  opacity: 100%;
 }
-.right{
-  float: right;
+.imgContainer:hover #wholeBack,
+.imgContainer:hover #retailBack {
+  transform: scale(1.02);
 }
