@@ -3,7 +3,8 @@
 복합한 상품 발주 과정으로 인해 어려움을 겪는 소상공인을 위해 구상하였으며,
 다양한 식품을 도매,소매로 구분하여 판매하는 쇼핑몰 웹 서비스 프로젝트입니다. <br />
 
-- 서비스 링크 : http://kdt-sw2-seoul-team04.elicecoding.com/
+## npm start
+## ctrl + C
 
 <br>
 <br>
