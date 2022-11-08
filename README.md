@@ -114,45 +114,26 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
  </details>
  
 ####  백엔드<br>
-    8.1 admin required 미들웨어 ** 
+    8.1 admin required 미들웨어 
         상품등록, 상품정보 수정, 삭제와 장바구니 전체목록 조회, 전체 유저 목록 조회에 관리자 외 접근 차단 
         
-    8.2  validator 기능 추가 ** 
+    8.2  validator 기능 추가 
         사용자 이메일, 비밀번호에 대해 프론트의 요청 재검증 및 브라우저 외의 불법 경로로 서버접근 차단  
         상품 정보 중 가격에 대해 타입 체크
 
-    8.3 error handler 강화 ** 
+    8.3 error handler 강화 
         예상 가능한 에러 처리에 대한 기능 강화 
 
-    8.4 path alias로 경로 정리 ** 
-        백엔드 경로는 alias 처리 
+    8.4 path alias로 경로 정리 
+        백엔드 경로는 alias 처리해 경로 
     
-    8.5 **asyncHandler 활용 확대** 
-        복잡한 try ~ catch 문 정리 
+    8.5 asyncHandler 활용 확대
+        반복되는 try ~ catch 문을 정리해 코드 간소화
     
-    8.6 **ES6 import export 문법 사용** 
+    8.6 ES6 import export 문법 사용
         모듈 호출에 require 대신 최신 문법 적용 
     
 
-
-## 4. 인프라 구조
-
-![image](https://i.ibb.co/9tGxmx0/image.png)<br />
-
-- **Vanilla javascript**, html, css (**Bulma css**)
-- Font-awesome 
-- Daum 도로명 주소 api 
-
-### 2. 백엔드 
-
-- **Express**
-- Mongodb, Mongoose
-- nginx
-
-### 폴더 구조
-- 프론트: `src/views` 폴더 
-- 백: src/views 이외 폴더 전체
-- 실행: **프론트, 백 동시에 express로 실행**
 
 
 ### 프로젝트 역할 분담
@@ -165,13 +146,38 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
 | 윤민주 | Backend | |
 
 
+## 회고
+백엔드로 참여한 첫 번째 프로젝트였다.
+
+1순위는 작동하는 코드 구현. 
+
+2순위는 간결하고 튼튼하고 남이 보기에도 쉬운 코드 작성.
+
+그리고 무엇보다 "백은 프론트를 기다리게 해서는 안된다"는 원칙.
+
+시간의 압박을 기분 좋은 채찍질로 생각했다. 팀원들끼리의 소통이 중요하다. 부족한 점이 많지만 기한 내 마무리하고 서비스를 마칠 수 있어 뿌듯했다.
+
+코드면에서는
+
+* api 작성시 프론트와 백의 경계(또는 역할 분리)에 대해 고민해야했다. "데이터 가공은 백에서 모두 처리하고 프론트는 화면에 뿌려주는 역할만 한다"를 기준으로 코드를 짰다.
+
+* db, service, controller의 3계층 분리. 특히 controller층에서 service의 내용이 들어가지 않도록 주의했다.   
+  
+
+#### 배운점
+* express 프레임워크 사용법 
+* 미들웨어 작성
+* mongoDB의 유연함 실감
+
+#### 아쉬운 점
+* clean code - 몇 달 뒤 작성한 코드를 다시 보면 리팩토링 할 부분이 많이 보일 것 같다.
+* error handler에서 예상치 못한 에러를 500 에러로 처리한 점. 500은 가능한 발생하지 않도록 해야한다.
+* 소셜로그인, 메일 인증, 결제 서비스 등 3rd party library를 많이 활용하지 못했다.
 
 
+<details><summary>설치 방법</summary>
 
-
-## 설치 방법
-
-1. **.env 파일 설정 (MONGODB_URL 환경변수를, 개인 로컬 혹은 Atlas 서버 URL로 설정해야 함)**
+1. `.env` 파일 설정 (MONGODB_URL 환경변수를, 개인 로컬 혹은 Atlas 서버 URL로 설정해야 함)
 
 2. express 실행
 
@@ -186,9 +192,6 @@ yarn start
 ```
 
 <br>
+</details>
 
----
-
-본 프로젝트에서 제공하는 모든 코드 등의는 저작권법에 의해 보호받는 ㈜엘리스의 자산이며, 무단 사용 및 도용, 복제 및 배포를 금합니다.
-Copyright 2022 엘리스 Inc. All rights reserved.
 
