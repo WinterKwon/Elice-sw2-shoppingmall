@@ -54,7 +54,7 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
   </details>
   
 ### 기능소개
-
+<details><summary> 기능소개 상세 </summary>
 #### 1. 회원가입, 로그인, 회원정보 수정 <br>
     1.1 email, password 유효성 검증 **
         프론트엔드, 백엔드 정책 통일
@@ -111,6 +111,8 @@ https://documenter.getpostman.com/view/20914545/Uz5Ardjg
     7.3 기능별 모듈로 관리
     7.4 jwt 토큰을 통한 user role 확인
 
+ </details>
+ 
 ####  백엔드<br>
     8.1 admin required 미들웨어 ** 
         상품등록, 상품정보 수정, 삭제와 장바구니 전체목록 조회, 전체 유저 목록 조회에 관리자 외 접근 차단 
